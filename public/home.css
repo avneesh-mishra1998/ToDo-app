@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+.date-div{
+    background-color: rgb(86, 39, 72);
+    color: aliceblue;
+    margin: 0 25vh;
+    text-align: center;
+    padding: 5px 0;
+}
+.form-div{
+    background-color: bisque;
+    text-align: center;
+    margin: 5vh 0;
+}
+.form-data{padding-top: 30px;}
+.form-data>input{
+    font-size: larger;
+    width: 40vh;
+    height: 6vh;
+}
+.form-data>button{
+    margin: 2vh 0;
+    font-size: large;
+    padding: 1vh 2vh;
+    border-radius: 20%;
+    border: none;
+    background-color: rgb(112, 59, 21);
+    color: aliceblue;
+    font-weight: bold;
+}
+.form-data>button:hover{
+    background-color: rgb(5, 4, 4);
+    color: rgb(250, 245, 245);
+    }
+
+    .item-div{
+        list-style-type: none;
+        text-align: left;
+        margin: 30px;
+        line-height: 40px;
+    }
+    .item-div>li{
+        background-color: gainsboro;
+        margin: 0 -6%;
+        padding-left: 5%;
+    }
+    .btn{
+        margin-left: 5rem;
+        color: bisque;
+        background-color: rgb(220, 20, 20);
+        font-weight:light ;
+        font-size: 20px;
+        padding: .4rem;
+        text-decoration: none;
+    }
+    .btn:hover{
+        background-color: rgba(42, 19, 3, 0.932);
+    }
+    .item-div>li>span{
+        font-size: larger;
+        margin-top: 0px;
+    }
